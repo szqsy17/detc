@@ -1,0 +1,18 @@
+# 打包需要
+spring:
+  profiles:
+    active: '@environment@'
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1034MB
+server:
+  compression:
+    enabled: true
+    mime-types: application/json
+    min-response-size: 200B
+mybatis:
+  configuration:
+    call-setters-on-nulls: true

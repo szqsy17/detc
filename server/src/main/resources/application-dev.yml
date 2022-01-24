@@ -1,0 +1,11 @@
+# 开发环境配置
+spring:
+  profiles: dev
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/detc?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+server:
+  port: 8050
+  webUrl: "http://127.0.0.1:9050"
+  storagePath: "C:/Users/Kami/Projects/5.detc system/storage"

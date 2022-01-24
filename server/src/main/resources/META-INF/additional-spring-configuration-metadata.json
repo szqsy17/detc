@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "server.storagePath",
+      "type": "java.lang.String",
+      "description": "Description for server.storagePath."
+    },
+    {
+      "name": "server.webUrl",
+      "type": "java.lang.String",
+      "description": "Description for server.webUrl."
+    }
+  ]
+}
